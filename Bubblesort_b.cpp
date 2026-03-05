@@ -78,5 +78,15 @@ void display()
     cout << "Jumlah pass = " << n-1 << endl;
     cout << endl;
     cout << endl;
+}
 
+int main()
+{
+    input();
+
+    bubblesortarray();
+    display();
+
+    system("pause");
+    return 0;
 }
